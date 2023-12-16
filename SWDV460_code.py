@@ -6,3 +6,5 @@ root = tree.getroot()
 for book in root.findall('book'):
     title = book.find('title').text
     print(title)
+
+print("Hello Bob")
